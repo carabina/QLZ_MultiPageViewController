@@ -1,0 +1,4 @@
+platform :ios, '7.0'
+target ‘QLZ_MultiPageViewController’ do
+pod 'QLZ_Categories', '~> 0.1.6'
+end
