@@ -7,7 +7,7 @@ s.homepage     = "https://github.com/qlz130514988/QLZ_MultiPageViewController"
 s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author             = { "qlz130514988." => "https://github.com/qlz130514988" }
 s.platform = :ios, "7.0"
-s.source   = { :git => 'https://github.com/qlz130514988/QLZ_MultiPageViewControllerl.git', :tag => s.version, :submodules => true }
+s.source   = { :git => 'https://github.com/qlz130514988/QLZ_MultiPageViewController.git', :tag => s.version, :submodules => true }
 s.source_files  = "QLZ_MultiPageViewController/*.{h,m}"
 s.frameworks = "Foundation"
 s.requires_arc = true
