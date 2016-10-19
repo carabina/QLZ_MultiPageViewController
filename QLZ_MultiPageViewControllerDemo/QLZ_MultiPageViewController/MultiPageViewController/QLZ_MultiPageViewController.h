@@ -26,6 +26,7 @@
 @property (nonatomic, assign) CGRect viewFrame;
 @property (nonatomic, assign) int selectIndex;
 @property (nonatomic, assign) BOOL disappearSegmentView;
+@property (nonatomic, assign) BOOL scrollEnabled;
 
 @property (nonatomic, strong) UIColor *segmentBackgroundColor;
 @property (nonatomic, assign) float segmentViewHeight;

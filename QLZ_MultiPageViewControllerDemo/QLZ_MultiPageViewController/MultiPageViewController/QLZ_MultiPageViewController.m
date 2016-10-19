@@ -72,6 +72,10 @@
     multiPageSegmentControl.hidden = disappearSegmentView;
 }
 
+- (void)setScrollEnabled:(BOOL)scrollEnabled {
+    multiPageCollectionView.scrollEnabled = scrollEnabled;
+}
+
 - (void)setViewFrame:(CGRect)viewFrame {
     _viewFrame = viewFrame;
     self.view.frame = viewFrame;
